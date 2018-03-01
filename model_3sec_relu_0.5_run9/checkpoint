@@ -1,0 +1,2 @@
+model_checkpoint_path: "/homes/bc305/myphd/stage2/deeplearning.experiment1/CNN3/models_After_ICASSP/InterSpeech2018/testing_best_model_with3sec_MFM/keep_0.5_0.5_relurun9/bestModel.ckpt"
+all_model_checkpoint_paths: "/homes/bc305/myphd/stage2/deeplearning.experiment1/CNN3/models_After_ICASSP/InterSpeech2018/testing_best_model_with3sec_MFM/keep_0.5_0.5_relurun9/bestModel.ckpt"

@@ -1,0 +1,1553 @@
+Starting CNN model training at : 2018-02-27 23:00:54.024698
+Perform validation after full epochs as we are not training on splitted data: validateNow = 94******************************************************
+
+Epoch 0, avg training BATCH loss = 0.66155
+Avg CE loss on Validation data = 0.67192
+Avg Accuracy on Validation data = 0.61321
+Epoch 0, model is best so far. We save it..
+******************************************************
+
+Epoch 1, avg training BATCH loss = 0.62721
+Avg CE loss on Validation data = 0.66443
+Avg Accuracy on Validation data = 0.64800
+Epoch 1, model is best so far. We save it..
+******************************************************
+
+Epoch 2, avg training BATCH loss = 0.58069
+Avg CE loss on Validation data = 0.65499
+Avg Accuracy on Validation data = 0.67217
+Epoch 2, model is best so far. We save it..
+******************************************************
+
+Epoch 3, avg training BATCH loss = 0.55566
+Avg CE loss on Validation data = 0.64685
+Avg Accuracy on Validation data = 0.66981
+Epoch 3, model is best so far. We save it..
+******************************************************
+
+Epoch 4, avg training BATCH loss = 0.50734
+Avg CE loss on Validation data = 0.63781
+Avg Accuracy on Validation data = 0.67394
+Epoch 4, model is best so far. We save it..
+******************************************************
+
+Epoch 5, avg training BATCH loss = 0.50042
+Avg CE loss on Validation data = 0.63088
+Avg Accuracy on Validation data = 0.66627
+Epoch 5, model is best so far. We save it..
+******************************************************
+
+Epoch 6, avg training BATCH loss = 0.52329
+Avg CE loss on Validation data = 0.62442
+Avg Accuracy on Validation data = 0.66274
+Epoch 6, model is best so far. We save it..
+******************************************************
+
+Epoch 7, avg training BATCH loss = 0.41902
+Avg CE loss on Validation data = 0.62062
+Avg Accuracy on Validation data = 0.66097
+Epoch 7, model is best so far. We save it..
+******************************************************
+
+Epoch 8, avg training BATCH loss = 0.41624
+Avg CE loss on Validation data = 0.61345
+Avg Accuracy on Validation data = 0.66686
+Epoch 8, model is best so far. We save it..
+******************************************************
+
+Epoch 9, avg training BATCH loss = 0.32018
+Avg CE loss on Validation data = 0.59755
+Avg Accuracy on Validation data = 0.67983
+Epoch 9, model is best so far. We save it..
+******************************************************
+
+Epoch 10, avg training BATCH loss = 0.34955
+Avg CE loss on Validation data = 0.58683
+Avg Accuracy on Validation data = 0.69163
+Epoch 10, model is best so far. We save it..
+******************************************************
+
+Epoch 11, avg training BATCH loss = 0.33451
+Avg CE loss on Validation data = 0.56507
+Avg Accuracy on Validation data = 0.71875
+Epoch 11, model is best so far. We save it..
+******************************************************
+
+Epoch 12, avg training BATCH loss = 0.28994
+Avg CE loss on Validation data = 0.55063
+Avg Accuracy on Validation data = 0.72995
+Epoch 12, model is best so far. We save it..
+******************************************************
+
+Epoch 13, avg training BATCH loss = 0.27736
+Avg CE loss on Validation data = 0.54751
+Avg Accuracy on Validation data = 0.72936
+Epoch 13, model is best so far. We save it..
+******************************************************
+
+Epoch 14, avg training BATCH loss = 0.31487
+Avg CE loss on Validation data = 0.51149
+Avg Accuracy on Validation data = 0.75354
+Epoch 14, model is best so far. We save it..
+******************************************************
+
+Epoch 15, avg training BATCH loss = 0.27832
+Avg CE loss on Validation data = 0.49803
+Avg Accuracy on Validation data = 0.76120
+Epoch 15, model is best so far. We save it..
+******************************************************
+
+Epoch 16, avg training BATCH loss = 0.17795
+Avg CE loss on Validation data = 0.48083
+Avg Accuracy on Validation data = 0.76887
+Epoch 16, model is best so far. We save it..
+******************************************************
+
+Epoch 17, avg training BATCH loss = 0.20892
+Avg CE loss on Validation data = 0.45258
+Avg Accuracy on Validation data = 0.78479
+Epoch 17, model is best so far. We save it..
+******************************************************
+
+Epoch 18, avg training BATCH loss = 0.16069
+Avg CE loss on Validation data = 0.44090
+Avg Accuracy on Validation data = 0.79540
+Epoch 18, model is best so far. We save it..
+******************************************************
+
+Epoch 19, avg training BATCH loss = 0.10081
+Avg CE loss on Validation data = 0.43429
+Avg Accuracy on Validation data = 0.79953
+Epoch 19, model is best so far. We save it..
+******************************************************
+
+Epoch 20, avg training BATCH loss = 0.12422
+Avg CE loss on Validation data = 0.42480
+Avg Accuracy on Validation data = 0.80660
+Epoch 20, model is best so far. We save it..
+******************************************************
+
+Epoch 21, avg training BATCH loss = 0.17309
+Avg CE loss on Validation data = 0.41155
+Avg Accuracy on Validation data = 0.81073
+Epoch 21, model is best so far. We save it..
+******************************************************
+
+Epoch 22, avg training BATCH loss = 0.22093
+Avg CE loss on Validation data = 0.41153
+Avg Accuracy on Validation data = 0.81250
+Epoch 22, model is best so far. We save it..
+******************************************************
+
+Epoch 23, avg training BATCH loss = 0.10634
+Avg CE loss on Validation data = 0.40304
+Avg Accuracy on Validation data = 0.81545
+Epoch 23, model is best so far. We save it..
+******************************************************
+
+Epoch 24, avg training BATCH loss = 0.05993
+Avg CE loss on Validation data = 0.40037
+Avg Accuracy on Validation data = 0.81781
+Epoch 24, model is best so far. We save it..
+******************************************************
+
+Epoch 25, avg training BATCH loss = 0.13718
+Avg CE loss on Validation data = 0.40050
+Avg Accuracy on Validation data = 0.81663
+******************************************************
+
+Epoch 26, avg training BATCH loss = 0.13878
+Avg CE loss on Validation data = 0.37978
+Avg Accuracy on Validation data = 0.82665
+Epoch 26, model is best so far. We save it..
+******************************************************
+
+Epoch 27, avg training BATCH loss = 0.09406
+Avg CE loss on Validation data = 0.37399
+Avg Accuracy on Validation data = 0.83196
+Epoch 27, model is best so far. We save it..
+******************************************************
+
+Epoch 28, avg training BATCH loss = 0.10867
+Avg CE loss on Validation data = 0.37329
+Avg Accuracy on Validation data = 0.83196
+Epoch 28, model is best so far. We save it..
+******************************************************
+
+Epoch 29, avg training BATCH loss = 0.23527
+Avg CE loss on Validation data = 0.36917
+Avg Accuracy on Validation data = 0.83196
+Epoch 29, model is best so far. We save it..
+******************************************************
+
+Epoch 30, avg training BATCH loss = 0.09548
+Avg CE loss on Validation data = 0.35777
+Avg Accuracy on Validation data = 0.84316
+Epoch 30, model is best so far. We save it..
+******************************************************
+
+Epoch 31, avg training BATCH loss = 0.07796
+Avg CE loss on Validation data = 0.36245
+Avg Accuracy on Validation data = 0.83491
+******************************************************
+
+Epoch 32, avg training BATCH loss = 0.15325
+Avg CE loss on Validation data = 0.36369
+Avg Accuracy on Validation data = 0.83491
+******************************************************
+
+Epoch 33, avg training BATCH loss = 0.10233
+Avg CE loss on Validation data = 0.35794
+Avg Accuracy on Validation data = 0.83844
+******************************************************
+
+Epoch 34, avg training BATCH loss = 0.12038
+Avg CE loss on Validation data = 0.36033
+Avg Accuracy on Validation data = 0.83903
+******************************************************
+
+Epoch 35, avg training BATCH loss = 0.19434
+Avg CE loss on Validation data = 0.36323
+Avg Accuracy on Validation data = 0.83785
+******************************************************
+
+Epoch 36, avg training BATCH loss = 0.23016
+Avg CE loss on Validation data = 0.36140
+Avg Accuracy on Validation data = 0.83726
+******************************************************
+
+Epoch 37, avg training BATCH loss = 0.08786
+Avg CE loss on Validation data = 0.33532
+Avg Accuracy on Validation data = 0.84965
+Epoch 37, model is best so far. We save it..
+******************************************************
+
+Epoch 38, avg training BATCH loss = 0.14474
+Avg CE loss on Validation data = 0.33634
+Avg Accuracy on Validation data = 0.85200
+******************************************************
+
+Epoch 39, avg training BATCH loss = 0.04384
+Avg CE loss on Validation data = 0.33880
+Avg Accuracy on Validation data = 0.85259
+******************************************************
+
+Epoch 40, avg training BATCH loss = 0.15936
+Avg CE loss on Validation data = 0.34600
+Avg Accuracy on Validation data = 0.85083
+******************************************************
+
+Epoch 41, avg training BATCH loss = 0.15238
+Avg CE loss on Validation data = 0.34218
+Avg Accuracy on Validation data = 0.85259
+******************************************************
+
+Epoch 42, avg training BATCH loss = 0.09305
+Avg CE loss on Validation data = 0.33536
+Avg Accuracy on Validation data = 0.85495
+******************************************************
+
+Epoch 43, avg training BATCH loss = 0.07375
+Avg CE loss on Validation data = 0.33399
+Avg Accuracy on Validation data = 0.85672
+Epoch 43, model is best so far. We save it..
+******************************************************
+
+Epoch 44, avg training BATCH loss = 0.07183
+Avg CE loss on Validation data = 0.33639
+Avg Accuracy on Validation data = 0.85259
+******************************************************
+
+Epoch 45, avg training BATCH loss = 0.13177
+Avg CE loss on Validation data = 0.32698
+Avg Accuracy on Validation data = 0.85849
+Epoch 45, model is best so far. We save it..
+******************************************************
+
+Epoch 46, avg training BATCH loss = 0.06390
+Avg CE loss on Validation data = 0.32270
+Avg Accuracy on Validation data = 0.85967
+Epoch 46, model is best so far. We save it..
+******************************************************
+
+Epoch 47, avg training BATCH loss = 0.18054
+Avg CE loss on Validation data = 0.31688
+Avg Accuracy on Validation data = 0.86203
+Epoch 47, model is best so far. We save it..
+******************************************************
+
+Epoch 48, avg training BATCH loss = 0.14173
+Avg CE loss on Validation data = 0.32445
+Avg Accuracy on Validation data = 0.85849
+******************************************************
+
+Epoch 49, avg training BATCH loss = 0.07939
+Avg CE loss on Validation data = 0.31551
+Avg Accuracy on Validation data = 0.86380
+Epoch 49, model is best so far. We save it..
+******************************************************
+
+Epoch 50, avg training BATCH loss = 0.14668
+Avg CE loss on Validation data = 0.33050
+Avg Accuracy on Validation data = 0.85731
+******************************************************
+
+Epoch 51, avg training BATCH loss = 0.04641
+Avg CE loss on Validation data = 0.32029
+Avg Accuracy on Validation data = 0.86026
+******************************************************
+
+Epoch 52, avg training BATCH loss = 0.22204
+Avg CE loss on Validation data = 0.30885
+Avg Accuracy on Validation data = 0.86733
+Epoch 52, model is best so far. We save it..
+******************************************************
+
+Epoch 53, avg training BATCH loss = 0.12574
+Avg CE loss on Validation data = 0.30818
+Avg Accuracy on Validation data = 0.86733
+Epoch 53, model is best so far. We save it..
+******************************************************
+
+Epoch 54, avg training BATCH loss = 0.05967
+Avg CE loss on Validation data = 0.31169
+Avg Accuracy on Validation data = 0.86380
+******************************************************
+
+Epoch 55, avg training BATCH loss = 0.14298
+Avg CE loss on Validation data = 0.31010
+Avg Accuracy on Validation data = 0.86557
+******************************************************
+
+Epoch 56, avg training BATCH loss = 0.02121
+Avg CE loss on Validation data = 0.31894
+Avg Accuracy on Validation data = 0.86026
+******************************************************
+
+Epoch 57, avg training BATCH loss = 0.14141
+Avg CE loss on Validation data = 0.30632
+Avg Accuracy on Validation data = 0.86851
+Epoch 57, model is best so far. We save it..
+******************************************************
+
+Epoch 58, avg training BATCH loss = 0.12959
+Avg CE loss on Validation data = 0.30680
+Avg Accuracy on Validation data = 0.86675
+******************************************************
+
+Epoch 59, avg training BATCH loss = 0.15672
+Avg CE loss on Validation data = 0.30527
+Avg Accuracy on Validation data = 0.86675
+Epoch 59, model is best so far. We save it..
+******************************************************
+
+Epoch 60, avg training BATCH loss = 0.11563
+Avg CE loss on Validation data = 0.30169
+Avg Accuracy on Validation data = 0.86969
+Epoch 60, model is best so far. We save it..
+******************************************************
+
+Epoch 61, avg training BATCH loss = 0.39108
+Avg CE loss on Validation data = 0.29304
+Avg Accuracy on Validation data = 0.87559
+Epoch 61, model is best so far. We save it..
+******************************************************
+
+Epoch 62, avg training BATCH loss = 0.09992
+Avg CE loss on Validation data = 0.29630
+Avg Accuracy on Validation data = 0.87382
+******************************************************
+
+Epoch 63, avg training BATCH loss = 0.10614
+Avg CE loss on Validation data = 0.30245
+Avg Accuracy on Validation data = 0.86851
+******************************************************
+
+Epoch 64, avg training BATCH loss = 0.05554
+Avg CE loss on Validation data = 0.29569
+Avg Accuracy on Validation data = 0.87205
+******************************************************
+
+Epoch 65, avg training BATCH loss = 0.05840
+Avg CE loss on Validation data = 0.29073
+Avg Accuracy on Validation data = 0.87618
+Epoch 65, model is best so far. We save it..
+******************************************************
+
+Epoch 66, avg training BATCH loss = 0.14013
+Avg CE loss on Validation data = 0.28968
+Avg Accuracy on Validation data = 0.87618
+Epoch 66, model is best so far. We save it..
+******************************************************
+
+Epoch 67, avg training BATCH loss = 0.04322
+Avg CE loss on Validation data = 0.29140
+Avg Accuracy on Validation data = 0.87264
+******************************************************
+
+Epoch 68, avg training BATCH loss = 0.04738
+Avg CE loss on Validation data = 0.29709
+Avg Accuracy on Validation data = 0.87028
+******************************************************
+
+Epoch 69, avg training BATCH loss = 0.21870
+Avg CE loss on Validation data = 0.29048
+Avg Accuracy on Validation data = 0.87559
+******************************************************
+
+Epoch 70, avg training BATCH loss = 0.13161
+Avg CE loss on Validation data = 0.28664
+Avg Accuracy on Validation data = 0.87913
+Epoch 70, model is best so far. We save it..
+******************************************************
+
+Epoch 71, avg training BATCH loss = 0.12266
+Avg CE loss on Validation data = 0.28235
+Avg Accuracy on Validation data = 0.87854
+Epoch 71, model is best so far. We save it..
+******************************************************
+
+Epoch 72, avg training BATCH loss = 0.03064
+Avg CE loss on Validation data = 0.27841
+Avg Accuracy on Validation data = 0.87854
+Epoch 72, model is best so far. We save it..
+******************************************************
+
+Epoch 73, avg training BATCH loss = 0.06512
+Avg CE loss on Validation data = 0.27871
+Avg Accuracy on Validation data = 0.87854
+******************************************************
+
+Epoch 74, avg training BATCH loss = 0.03067
+Avg CE loss on Validation data = 0.28131
+Avg Accuracy on Validation data = 0.87854
+******************************************************
+
+Epoch 75, avg training BATCH loss = 0.13513
+Avg CE loss on Validation data = 0.27924
+Avg Accuracy on Validation data = 0.88031
+******************************************************
+
+Epoch 76, avg training BATCH loss = 0.06443
+Avg CE loss on Validation data = 0.27392
+Avg Accuracy on Validation data = 0.88031
+Epoch 76, model is best so far. We save it..
+******************************************************
+
+Epoch 77, avg training BATCH loss = 0.09992
+Avg CE loss on Validation data = 0.26898
+Avg Accuracy on Validation data = 0.88797
+Epoch 77, model is best so far. We save it..
+******************************************************
+
+Epoch 78, avg training BATCH loss = 0.06280
+Avg CE loss on Validation data = 0.27224
+Avg Accuracy on Validation data = 0.88267
+******************************************************
+
+Epoch 79, avg training BATCH loss = 0.05255
+Avg CE loss on Validation data = 0.26831
+Avg Accuracy on Validation data = 0.88267
+Epoch 79, model is best so far. We save it..
+******************************************************
+
+Epoch 80, avg training BATCH loss = 0.20913
+Avg CE loss on Validation data = 0.27301
+Avg Accuracy on Validation data = 0.87972
+******************************************************
+
+Epoch 81, avg training BATCH loss = 0.02645
+Avg CE loss on Validation data = 0.27220
+Avg Accuracy on Validation data = 0.88090
+******************************************************
+
+Epoch 82, avg training BATCH loss = 0.01003
+Avg CE loss on Validation data = 0.27519
+Avg Accuracy on Validation data = 0.88090
+******************************************************
+
+Epoch 83, avg training BATCH loss = 0.10579
+Avg CE loss on Validation data = 0.26710
+Avg Accuracy on Validation data = 0.88384
+Epoch 83, model is best so far. We save it..
+******************************************************
+
+Epoch 84, avg training BATCH loss = 0.14312
+Avg CE loss on Validation data = 0.26943
+Avg Accuracy on Validation data = 0.88325
+******************************************************
+
+Epoch 85, avg training BATCH loss = 0.02403
+Avg CE loss on Validation data = 0.26004
+Avg Accuracy on Validation data = 0.88620
+Epoch 85, model is best so far. We save it..
+******************************************************
+
+Epoch 86, avg training BATCH loss = 0.11134
+Avg CE loss on Validation data = 0.26070
+Avg Accuracy on Validation data = 0.88974
+******************************************************
+
+Epoch 87, avg training BATCH loss = 0.01566
+Avg CE loss on Validation data = 0.25634
+Avg Accuracy on Validation data = 0.88974
+Epoch 87, model is best so far. We save it..
+******************************************************
+
+Epoch 88, avg training BATCH loss = 0.10560
+Avg CE loss on Validation data = 0.25676
+Avg Accuracy on Validation data = 0.88797
+******************************************************
+
+Epoch 89, avg training BATCH loss = 0.09714
+Avg CE loss on Validation data = 0.25435
+Avg Accuracy on Validation data = 0.88915
+Epoch 89, model is best so far. We save it..
+******************************************************
+
+Epoch 90, avg training BATCH loss = 0.07844
+Avg CE loss on Validation data = 0.26658
+Avg Accuracy on Validation data = 0.88384
+******************************************************
+
+Epoch 91, avg training BATCH loss = 0.12099
+Avg CE loss on Validation data = 0.25332
+Avg Accuracy on Validation data = 0.89210
+Epoch 91, model is best so far. We save it..
+******************************************************
+
+Epoch 92, avg training BATCH loss = 0.11351
+Avg CE loss on Validation data = 0.25214
+Avg Accuracy on Validation data = 0.89446
+Epoch 92, model is best so far. We save it..
+******************************************************
+
+Epoch 93, avg training BATCH loss = 0.06905
+Avg CE loss on Validation data = 0.24633
+Avg Accuracy on Validation data = 0.89623
+Epoch 93, model is best so far. We save it..
+******************************************************
+
+Epoch 94, avg training BATCH loss = 0.18065
+Avg CE loss on Validation data = 0.25644
+Avg Accuracy on Validation data = 0.88679
+******************************************************
+
+Epoch 95, avg training BATCH loss = 0.01398
+Avg CE loss on Validation data = 0.24785
+Avg Accuracy on Validation data = 0.89741
+******************************************************
+
+Epoch 96, avg training BATCH loss = 0.11896
+Avg CE loss on Validation data = 0.24186
+Avg Accuracy on Validation data = 0.89800
+Epoch 96, model is best so far. We save it..
+******************************************************
+
+Epoch 97, avg training BATCH loss = 0.02246
+Avg CE loss on Validation data = 0.24393
+Avg Accuracy on Validation data = 0.89682
+******************************************************
+
+Epoch 98, avg training BATCH loss = 0.04630
+Avg CE loss on Validation data = 0.24326
+Avg Accuracy on Validation data = 0.89741
+******************************************************
+
+Epoch 99, avg training BATCH loss = 0.18902
+Avg CE loss on Validation data = 0.24550
+Avg Accuracy on Validation data = 0.89505
+******************************************************
+
+Epoch 100, avg training BATCH loss = 0.13485
+Avg CE loss on Validation data = 0.24534
+Avg Accuracy on Validation data = 0.89505
+******************************************************
+
+Epoch 101, avg training BATCH loss = 0.03842
+Avg CE loss on Validation data = 0.23936
+Avg Accuracy on Validation data = 0.89858
+Epoch 101, model is best so far. We save it..
+******************************************************
+
+Epoch 102, avg training BATCH loss = 0.09024
+Avg CE loss on Validation data = 0.23808
+Avg Accuracy on Validation data = 0.90153
+Epoch 102, model is best so far. We save it..
+******************************************************
+
+Epoch 103, avg training BATCH loss = 0.04379
+Avg CE loss on Validation data = 0.22999
+Avg Accuracy on Validation data = 0.90448
+Epoch 103, model is best so far. We save it..
+******************************************************
+
+Epoch 104, avg training BATCH loss = 0.05210
+Avg CE loss on Validation data = 0.23446
+Avg Accuracy on Validation data = 0.90271
+******************************************************
+
+Epoch 105, avg training BATCH loss = 0.03584
+Avg CE loss on Validation data = 0.24527
+Avg Accuracy on Validation data = 0.89564
+******************************************************
+
+Epoch 106, avg training BATCH loss = 0.05474
+Avg CE loss on Validation data = 0.22719
+Avg Accuracy on Validation data = 0.90625
+Epoch 106, model is best so far. We save it..
+******************************************************
+
+Epoch 107, avg training BATCH loss = 0.13992
+Avg CE loss on Validation data = 0.22916
+Avg Accuracy on Validation data = 0.90389
+******************************************************
+
+Epoch 108, avg training BATCH loss = 0.07710
+Avg CE loss on Validation data = 0.22291
+Avg Accuracy on Validation data = 0.90802
+Epoch 108, model is best so far. We save it..
+******************************************************
+
+Epoch 109, avg training BATCH loss = 0.02198
+Avg CE loss on Validation data = 0.22637
+Avg Accuracy on Validation data = 0.90448
+******************************************************
+
+Epoch 110, avg training BATCH loss = 0.13156
+Avg CE loss on Validation data = 0.22953
+Avg Accuracy on Validation data = 0.90507
+******************************************************
+
+Epoch 111, avg training BATCH loss = 0.13835
+Avg CE loss on Validation data = 0.22759
+Avg Accuracy on Validation data = 0.90448
+******************************************************
+
+Epoch 112, avg training BATCH loss = 0.06658
+Avg CE loss on Validation data = 0.21999
+Avg Accuracy on Validation data = 0.91038
+Epoch 112, model is best so far. We save it..
+******************************************************
+
+Epoch 113, avg training BATCH loss = 0.08295
+Avg CE loss on Validation data = 0.22618
+Avg Accuracy on Validation data = 0.90743
+******************************************************
+
+Epoch 114, avg training BATCH loss = 0.04728
+Avg CE loss on Validation data = 0.21852
+Avg Accuracy on Validation data = 0.91215
+Epoch 114, model is best so far. We save it..
+******************************************************
+
+Epoch 115, avg training BATCH loss = 0.03379
+Avg CE loss on Validation data = 0.21780
+Avg Accuracy on Validation data = 0.91215
+Epoch 115, model is best so far. We save it..
+******************************************************
+
+Epoch 116, avg training BATCH loss = 0.02385
+Avg CE loss on Validation data = 0.21805
+Avg Accuracy on Validation data = 0.90979
+******************************************************
+
+Epoch 117, avg training BATCH loss = 0.01995
+Avg CE loss on Validation data = 0.21457
+Avg Accuracy on Validation data = 0.91392
+Epoch 117, model is best so far. We save it..
+******************************************************
+
+Epoch 118, avg training BATCH loss = 0.06975
+Avg CE loss on Validation data = 0.21754
+Avg Accuracy on Validation data = 0.91215
+******************************************************
+
+Epoch 119, avg training BATCH loss = 0.02076
+Avg CE loss on Validation data = 0.23025
+Avg Accuracy on Validation data = 0.90625
+******************************************************
+
+Epoch 120, avg training BATCH loss = 0.07824
+Avg CE loss on Validation data = 0.22555
+Avg Accuracy on Validation data = 0.90861
+******************************************************
+
+Epoch 121, avg training BATCH loss = 0.10722
+Avg CE loss on Validation data = 0.21231
+Avg Accuracy on Validation data = 0.91392
+Epoch 121, model is best so far. We save it..
+******************************************************
+
+Epoch 122, avg training BATCH loss = 0.05838
+Avg CE loss on Validation data = 0.21601
+Avg Accuracy on Validation data = 0.91274
+******************************************************
+
+Epoch 123, avg training BATCH loss = 0.03367
+Avg CE loss on Validation data = 0.20641
+Avg Accuracy on Validation data = 0.91804
+Epoch 123, model is best so far. We save it..
+******************************************************
+
+Epoch 124, avg training BATCH loss = 0.05968
+Avg CE loss on Validation data = 0.21729
+Avg Accuracy on Validation data = 0.91215
+******************************************************
+
+Epoch 125, avg training BATCH loss = 0.15088
+Avg CE loss on Validation data = 0.20789
+Avg Accuracy on Validation data = 0.91686
+******************************************************
+
+Epoch 126, avg training BATCH loss = 0.01252
+Avg CE loss on Validation data = 0.20275
+Avg Accuracy on Validation data = 0.91509
+Epoch 126, model is best so far. We save it..
+******************************************************
+
+Epoch 127, avg training BATCH loss = 0.10980
+Avg CE loss on Validation data = 0.20809
+Avg Accuracy on Validation data = 0.91686
+******************************************************
+
+Epoch 128, avg training BATCH loss = 0.05285
+Avg CE loss on Validation data = 0.19519
+Avg Accuracy on Validation data = 0.92158
+Epoch 128, model is best so far. We save it..
+******************************************************
+
+Epoch 129, avg training BATCH loss = 0.05062
+Avg CE loss on Validation data = 0.20072
+Avg Accuracy on Validation data = 0.91863
+******************************************************
+
+Epoch 130, avg training BATCH loss = 0.05852
+Avg CE loss on Validation data = 0.20962
+Avg Accuracy on Validation data = 0.91450
+******************************************************
+
+Epoch 131, avg training BATCH loss = 0.01767
+Avg CE loss on Validation data = 0.21233
+Avg Accuracy on Validation data = 0.91274
+******************************************************
+
+Epoch 132, avg training BATCH loss = 0.02079
+Avg CE loss on Validation data = 0.19592
+Avg Accuracy on Validation data = 0.92158
+******************************************************
+
+Epoch 133, avg training BATCH loss = 0.04586
+Avg CE loss on Validation data = 0.17889
+Avg Accuracy on Validation data = 0.92630
+Epoch 133, model is best so far. We save it..
+******************************************************
+
+Epoch 134, avg training BATCH loss = 0.04956
+Avg CE loss on Validation data = 0.18910
+Avg Accuracy on Validation data = 0.92512
+******************************************************
+
+Epoch 135, avg training BATCH loss = 0.02034
+Avg CE loss on Validation data = 0.20157
+Avg Accuracy on Validation data = 0.91745
+******************************************************
+
+Epoch 136, avg training BATCH loss = 0.03450
+Avg CE loss on Validation data = 0.19730
+Avg Accuracy on Validation data = 0.91922
+******************************************************
+
+Epoch 137, avg training BATCH loss = 0.03264
+Avg CE loss on Validation data = 0.20331
+Avg Accuracy on Validation data = 0.91863
+******************************************************
+
+Epoch 138, avg training BATCH loss = 0.06234
+Avg CE loss on Validation data = 0.19166
+Avg Accuracy on Validation data = 0.91922
+******************************************************
+
+Epoch 139, avg training BATCH loss = 0.01513
+Avg CE loss on Validation data = 0.19185
+Avg Accuracy on Validation data = 0.92040
+******************************************************
+
+Epoch 140, avg training BATCH loss = 0.10101
+Avg CE loss on Validation data = 0.18427
+Avg Accuracy on Validation data = 0.92571
+******************************************************
+
+Epoch 141, avg training BATCH loss = 0.04654
+Avg CE loss on Validation data = 0.20146
+Avg Accuracy on Validation data = 0.91922
+******************************************************
+
+Epoch 142, avg training BATCH loss = 0.01018
+Avg CE loss on Validation data = 0.18931
+Avg Accuracy on Validation data = 0.92276
+******************************************************
+
+Epoch 143, avg training BATCH loss = 0.03765
+Avg CE loss on Validation data = 0.19571
+Avg Accuracy on Validation data = 0.91863
+******************************************************
+
+Epoch 144, avg training BATCH loss = 0.06345
+Avg CE loss on Validation data = 0.20271
+Avg Accuracy on Validation data = 0.91627
+******************************************************
+
+Epoch 145, avg training BATCH loss = 0.02622
+Avg CE loss on Validation data = 0.17814
+Avg Accuracy on Validation data = 0.92866
+Epoch 145, model is best so far. We save it..
+******************************************************
+
+Epoch 146, avg training BATCH loss = 0.01415
+Avg CE loss on Validation data = 0.17386
+Avg Accuracy on Validation data = 0.93042
+Epoch 146, model is best so far. We save it..
+******************************************************
+
+Epoch 147, avg training BATCH loss = 0.02877
+Avg CE loss on Validation data = 0.18377
+Avg Accuracy on Validation data = 0.92335
+******************************************************
+
+Epoch 148, avg training BATCH loss = 0.07829
+Avg CE loss on Validation data = 0.17546
+Avg Accuracy on Validation data = 0.92983
+******************************************************
+
+Epoch 149, avg training BATCH loss = 0.04935
+Avg CE loss on Validation data = 0.16601
+Avg Accuracy on Validation data = 0.93219
+Epoch 149, model is best so far. We save it..
+******************************************************
+
+Epoch 150, avg training BATCH loss = 0.03758
+Avg CE loss on Validation data = 0.15935
+Avg Accuracy on Validation data = 0.93632
+Epoch 150, model is best so far. We save it..
+******************************************************
+
+Epoch 151, avg training BATCH loss = 0.00213
+Avg CE loss on Validation data = 0.17796
+Avg Accuracy on Validation data = 0.92925
+******************************************************
+
+Epoch 152, avg training BATCH loss = 0.07981
+Avg CE loss on Validation data = 0.18492
+Avg Accuracy on Validation data = 0.92158
+******************************************************
+
+Epoch 153, avg training BATCH loss = 0.04428
+Avg CE loss on Validation data = 0.18439
+Avg Accuracy on Validation data = 0.92335
+******************************************************
+
+Epoch 154, avg training BATCH loss = 0.12158
+Avg CE loss on Validation data = 0.17302
+Avg Accuracy on Validation data = 0.92925
+******************************************************
+
+Epoch 155, avg training BATCH loss = 0.07226
+Avg CE loss on Validation data = 0.16457
+Avg Accuracy on Validation data = 0.93278
+******************************************************
+
+Epoch 156, avg training BATCH loss = 0.03816
+Avg CE loss on Validation data = 0.16367
+Avg Accuracy on Validation data = 0.93219
+******************************************************
+
+Epoch 157, avg training BATCH loss = 0.08229
+Avg CE loss on Validation data = 0.18038
+Avg Accuracy on Validation data = 0.92276
+******************************************************
+
+Epoch 158, avg training BATCH loss = 0.02368
+Avg CE loss on Validation data = 0.17905
+Avg Accuracy on Validation data = 0.92571
+******************************************************
+
+Epoch 159, avg training BATCH loss = 0.26326
+Avg CE loss on Validation data = 0.16802
+Avg Accuracy on Validation data = 0.92983
+******************************************************
+
+Epoch 160, avg training BATCH loss = 0.03732
+Avg CE loss on Validation data = 0.16896
+Avg Accuracy on Validation data = 0.92689
+******************************************************
+
+Epoch 161, avg training BATCH loss = 0.05536
+Avg CE loss on Validation data = 0.16636
+Avg Accuracy on Validation data = 0.92807
+******************************************************
+
+Epoch 162, avg training BATCH loss = 0.00388
+Avg CE loss on Validation data = 0.15606
+Avg Accuracy on Validation data = 0.93396
+Epoch 162, model is best so far. We save it..
+******************************************************
+
+Epoch 163, avg training BATCH loss = 0.02375
+Avg CE loss on Validation data = 0.16050
+Avg Accuracy on Validation data = 0.93042
+******************************************************
+
+Epoch 164, avg training BATCH loss = 0.02578
+Avg CE loss on Validation data = 0.16388
+Avg Accuracy on Validation data = 0.92925
+******************************************************
+
+Epoch 165, avg training BATCH loss = 0.00932
+Avg CE loss on Validation data = 0.16475
+Avg Accuracy on Validation data = 0.92630
+******************************************************
+
+Epoch 166, avg training BATCH loss = 0.03735
+Avg CE loss on Validation data = 0.16806
+Avg Accuracy on Validation data = 0.92748
+******************************************************
+
+Epoch 167, avg training BATCH loss = 0.00775
+Avg CE loss on Validation data = 0.15499
+Avg Accuracy on Validation data = 0.93455
+Epoch 167, model is best so far. We save it..
+******************************************************
+
+Epoch 168, avg training BATCH loss = 0.01138
+Avg CE loss on Validation data = 0.16349
+Avg Accuracy on Validation data = 0.92925
+******************************************************
+
+Epoch 169, avg training BATCH loss = 0.03208
+Avg CE loss on Validation data = 0.16009
+Avg Accuracy on Validation data = 0.93219
+******************************************************
+
+Epoch 170, avg training BATCH loss = 0.01597
+Avg CE loss on Validation data = 0.15568
+Avg Accuracy on Validation data = 0.93278
+******************************************************
+
+Epoch 171, avg training BATCH loss = 0.02415
+Avg CE loss on Validation data = 0.15354
+Avg Accuracy on Validation data = 0.93455
+Epoch 171, model is best so far. We save it..
+******************************************************
+
+Epoch 172, avg training BATCH loss = 0.01330
+Avg CE loss on Validation data = 0.14910
+Avg Accuracy on Validation data = 0.93514
+Epoch 172, model is best so far. We save it..
+******************************************************
+
+Epoch 173, avg training BATCH loss = 0.01532
+Avg CE loss on Validation data = 0.15792
+Avg Accuracy on Validation data = 0.92983
+******************************************************
+
+Epoch 174, avg training BATCH loss = 0.00890
+Avg CE loss on Validation data = 0.14565
+Avg Accuracy on Validation data = 0.93750
+Epoch 174, model is best so far. We save it..
+******************************************************
+
+Epoch 175, avg training BATCH loss = 0.03926
+Avg CE loss on Validation data = 0.15346
+Avg Accuracy on Validation data = 0.93337
+******************************************************
+
+Epoch 176, avg training BATCH loss = 0.00811
+Avg CE loss on Validation data = 0.15591
+Avg Accuracy on Validation data = 0.93278
+******************************************************
+
+Epoch 177, avg training BATCH loss = 0.01055
+Avg CE loss on Validation data = 0.15335
+Avg Accuracy on Validation data = 0.93160
+******************************************************
+
+Epoch 178, avg training BATCH loss = 0.05412
+Avg CE loss on Validation data = 0.14402
+Avg Accuracy on Validation data = 0.94045
+Epoch 178, model is best so far. We save it..
+******************************************************
+
+Epoch 179, avg training BATCH loss = 0.02411
+Avg CE loss on Validation data = 0.15195
+Avg Accuracy on Validation data = 0.93337
+******************************************************
+
+Epoch 180, avg training BATCH loss = 0.01902
+Avg CE loss on Validation data = 0.15201
+Avg Accuracy on Validation data = 0.93278
+******************************************************
+
+Epoch 181, avg training BATCH loss = 0.01492
+Avg CE loss on Validation data = 0.17361
+Avg Accuracy on Validation data = 0.92276
+******************************************************
+
+Epoch 182, avg training BATCH loss = 0.02842
+Avg CE loss on Validation data = 0.17530
+Avg Accuracy on Validation data = 0.92276
+******************************************************
+
+Epoch 183, avg training BATCH loss = 0.07354
+Avg CE loss on Validation data = 0.14654
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 184, avg training BATCH loss = 0.00774
+Avg CE loss on Validation data = 0.15874
+Avg Accuracy on Validation data = 0.92925
+******************************************************
+
+Epoch 185, avg training BATCH loss = 0.03003
+Avg CE loss on Validation data = 0.13802
+Avg Accuracy on Validation data = 0.94045
+Epoch 185, model is best so far. We save it..
+******************************************************
+
+Epoch 186, avg training BATCH loss = 0.01160
+Avg CE loss on Validation data = 0.16082
+Avg Accuracy on Validation data = 0.92866
+******************************************************
+
+Epoch 187, avg training BATCH loss = 0.01341
+Avg CE loss on Validation data = 0.16309
+Avg Accuracy on Validation data = 0.92630
+******************************************************
+
+Epoch 188, avg training BATCH loss = 0.00471
+Avg CE loss on Validation data = 0.15839
+Avg Accuracy on Validation data = 0.93160
+******************************************************
+
+Epoch 189, avg training BATCH loss = 0.03079
+Avg CE loss on Validation data = 0.13617
+Avg Accuracy on Validation data = 0.94399
+Epoch 189, model is best so far. We save it..
+******************************************************
+
+Epoch 190, avg training BATCH loss = 0.01167
+Avg CE loss on Validation data = 0.15768
+Avg Accuracy on Validation data = 0.92983
+******************************************************
+
+Epoch 191, avg training BATCH loss = 0.01249
+Avg CE loss on Validation data = 0.14460
+Avg Accuracy on Validation data = 0.93691
+******************************************************
+
+Epoch 192, avg training BATCH loss = 0.02182
+Avg CE loss on Validation data = 0.15430
+Avg Accuracy on Validation data = 0.93337
+******************************************************
+
+Epoch 193, avg training BATCH loss = 0.00548
+Avg CE loss on Validation data = 0.15289
+Avg Accuracy on Validation data = 0.93278
+******************************************************
+
+Epoch 194, avg training BATCH loss = 0.02041
+Avg CE loss on Validation data = 0.15339
+Avg Accuracy on Validation data = 0.93455
+******************************************************
+
+Epoch 195, avg training BATCH loss = 0.00427
+Avg CE loss on Validation data = 0.14244
+Avg Accuracy on Validation data = 0.93868
+******************************************************
+
+Epoch 196, avg training BATCH loss = 0.05183
+Avg CE loss on Validation data = 0.14439
+Avg Accuracy on Validation data = 0.93750
+******************************************************
+
+Epoch 197, avg training BATCH loss = 0.03900
+Avg CE loss on Validation data = 0.15958
+Avg Accuracy on Validation data = 0.92983
+******************************************************
+
+Epoch 198, avg training BATCH loss = 0.03765
+Avg CE loss on Validation data = 0.14686
+Avg Accuracy on Validation data = 0.93514
+******************************************************
+
+Epoch 199, avg training BATCH loss = 0.02510
+Avg CE loss on Validation data = 0.15179
+Avg Accuracy on Validation data = 0.93514
+******************************************************
+
+Epoch 200, avg training BATCH loss = 0.01021
+Avg CE loss on Validation data = 0.15022
+Avg Accuracy on Validation data = 0.93514
+******************************************************
+
+Epoch 201, avg training BATCH loss = 0.01733
+Avg CE loss on Validation data = 0.16097
+Avg Accuracy on Validation data = 0.93337
+******************************************************
+
+Epoch 202, avg training BATCH loss = 0.01632
+Avg CE loss on Validation data = 0.14581
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 203, avg training BATCH loss = 0.02275
+Avg CE loss on Validation data = 0.16266
+Avg Accuracy on Validation data = 0.93396
+******************************************************
+
+Epoch 204, avg training BATCH loss = 0.02248
+Avg CE loss on Validation data = 0.16311
+Avg Accuracy on Validation data = 0.93337
+******************************************************
+
+Epoch 205, avg training BATCH loss = 0.02094
+Avg CE loss on Validation data = 0.14416
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 206, avg training BATCH loss = 0.01829
+Avg CE loss on Validation data = 0.14095
+Avg Accuracy on Validation data = 0.94222
+******************************************************
+
+Epoch 207, avg training BATCH loss = 0.01387
+Avg CE loss on Validation data = 0.15521
+Avg Accuracy on Validation data = 0.93514
+******************************************************
+
+Epoch 208, avg training BATCH loss = 0.00775
+Avg CE loss on Validation data = 0.16029
+Avg Accuracy on Validation data = 0.93396
+******************************************************
+
+Epoch 209, avg training BATCH loss = 0.01632
+Avg CE loss on Validation data = 0.15149
+Avg Accuracy on Validation data = 0.93573
+******************************************************
+
+Epoch 210, avg training BATCH loss = 0.02065
+Avg CE loss on Validation data = 0.15344
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 211, avg training BATCH loss = 0.02117
+Avg CE loss on Validation data = 0.16496
+Avg Accuracy on Validation data = 0.93514
+******************************************************
+
+Epoch 212, avg training BATCH loss = 0.00297
+Avg CE loss on Validation data = 0.15619
+Avg Accuracy on Validation data = 0.93691
+******************************************************
+
+Epoch 213, avg training BATCH loss = 0.00229
+Avg CE loss on Validation data = 0.16104
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 214, avg training BATCH loss = 0.05721
+Avg CE loss on Validation data = 0.17406
+Avg Accuracy on Validation data = 0.93042
+******************************************************
+
+Epoch 215, avg training BATCH loss = 0.00498
+Avg CE loss on Validation data = 0.16359
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 216, avg training BATCH loss = 0.00975
+Avg CE loss on Validation data = 0.15069
+Avg Accuracy on Validation data = 0.93927
+******************************************************
+
+Epoch 217, avg training BATCH loss = 0.00562
+Avg CE loss on Validation data = 0.15197
+Avg Accuracy on Validation data = 0.93986
+******************************************************
+
+Epoch 218, avg training BATCH loss = 0.00471
+Avg CE loss on Validation data = 0.15731
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 219, avg training BATCH loss = 0.00331
+Avg CE loss on Validation data = 0.17083
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 220, avg training BATCH loss = 0.00718
+Avg CE loss on Validation data = 0.15263
+Avg Accuracy on Validation data = 0.94163
+******************************************************
+
+Epoch 221, avg training BATCH loss = 0.01648
+Avg CE loss on Validation data = 0.16667
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 222, avg training BATCH loss = 0.00671
+Avg CE loss on Validation data = 0.17171
+Avg Accuracy on Validation data = 0.93396
+******************************************************
+
+Epoch 223, avg training BATCH loss = 0.01150
+Avg CE loss on Validation data = 0.16252
+Avg Accuracy on Validation data = 0.93868
+******************************************************
+
+Epoch 224, avg training BATCH loss = 0.01561
+Avg CE loss on Validation data = 0.16753
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 225, avg training BATCH loss = 0.02466
+Avg CE loss on Validation data = 0.14760
+Avg Accuracy on Validation data = 0.94222
+******************************************************
+
+Epoch 226, avg training BATCH loss = 0.00649
+Avg CE loss on Validation data = 0.14216
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 227, avg training BATCH loss = 0.00932
+Avg CE loss on Validation data = 0.16045
+Avg Accuracy on Validation data = 0.93868
+******************************************************
+
+Epoch 228, avg training BATCH loss = 0.00804
+Avg CE loss on Validation data = 0.15969
+Avg Accuracy on Validation data = 0.94045
+******************************************************
+
+Epoch 229, avg training BATCH loss = 0.22484
+Avg CE loss on Validation data = 0.17100
+Avg Accuracy on Validation data = 0.93868
+******************************************************
+
+Epoch 230, avg training BATCH loss = 0.00719
+Avg CE loss on Validation data = 0.15408
+Avg Accuracy on Validation data = 0.94163
+******************************************************
+
+Epoch 231, avg training BATCH loss = 0.03623
+Avg CE loss on Validation data = 0.13360
+Avg Accuracy on Validation data = 0.94634
+Epoch 231, model is best so far. We save it..
+******************************************************
+
+Epoch 232, avg training BATCH loss = 0.00389
+Avg CE loss on Validation data = 0.15142
+Avg Accuracy on Validation data = 0.94340
+******************************************************
+
+Epoch 233, avg training BATCH loss = 0.03707
+Avg CE loss on Validation data = 0.15571
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 234, avg training BATCH loss = 0.00665
+Avg CE loss on Validation data = 0.18349
+Avg Accuracy on Validation data = 0.93455
+******************************************************
+
+Epoch 235, avg training BATCH loss = 0.02525
+Avg CE loss on Validation data = 0.17041
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 236, avg training BATCH loss = 0.01344
+Avg CE loss on Validation data = 0.17499
+Avg Accuracy on Validation data = 0.93632
+******************************************************
+
+Epoch 237, avg training BATCH loss = 0.03412
+Avg CE loss on Validation data = 0.16541
+Avg Accuracy on Validation data = 0.94222
+******************************************************
+
+Epoch 238, avg training BATCH loss = 0.08496
+Avg CE loss on Validation data = 0.18046
+Avg Accuracy on Validation data = 0.93455
+******************************************************
+
+Epoch 239, avg training BATCH loss = 0.00978
+Avg CE loss on Validation data = 0.16149
+Avg Accuracy on Validation data = 0.94281
+******************************************************
+
+Epoch 240, avg training BATCH loss = 0.00800
+Avg CE loss on Validation data = 0.18206
+Avg Accuracy on Validation data = 0.93514
+******************************************************
+
+Epoch 241, avg training BATCH loss = 0.00648
+Avg CE loss on Validation data = 0.15154
+Avg Accuracy on Validation data = 0.94517
+******************************************************
+
+Epoch 242, avg training BATCH loss = 0.01093
+Avg CE loss on Validation data = 0.15232
+Avg Accuracy on Validation data = 0.94634
+******************************************************
+
+Epoch 243, avg training BATCH loss = 0.00104
+Avg CE loss on Validation data = 0.13879
+Avg Accuracy on Validation data = 0.94634
+******************************************************
+
+Epoch 244, avg training BATCH loss = 0.00569
+Avg CE loss on Validation data = 0.15541
+Avg Accuracy on Validation data = 0.94517
+******************************************************
+
+Epoch 245, avg training BATCH loss = 0.00087
+Avg CE loss on Validation data = 0.14943
+Avg Accuracy on Validation data = 0.94575
+******************************************************
+
+Epoch 246, avg training BATCH loss = 0.01178
+Avg CE loss on Validation data = 0.15293
+Avg Accuracy on Validation data = 0.94575
+******************************************************
+
+Epoch 247, avg training BATCH loss = 0.01219
+Avg CE loss on Validation data = 0.16254
+Avg Accuracy on Validation data = 0.94458
+******************************************************
+
+Epoch 248, avg training BATCH loss = 0.00306
+Avg CE loss on Validation data = 0.17275
+Avg Accuracy on Validation data = 0.94045
+******************************************************
+
+Epoch 249, avg training BATCH loss = 0.01127
+Avg CE loss on Validation data = 0.14777
+Avg Accuracy on Validation data = 0.94693
+******************************************************
+
+Epoch 250, avg training BATCH loss = 0.01110
+Avg CE loss on Validation data = 0.14951
+Avg Accuracy on Validation data = 0.94693
+******************************************************
+
+Epoch 251, avg training BATCH loss = 0.01089
+Avg CE loss on Validation data = 0.15332
+Avg Accuracy on Validation data = 0.94458
+******************************************************
+
+Epoch 252, avg training BATCH loss = 0.00291
+Avg CE loss on Validation data = 0.17071
+Avg Accuracy on Validation data = 0.94045
+******************************************************
+
+Epoch 253, avg training BATCH loss = 0.00273
+Avg CE loss on Validation data = 0.14615
+Avg Accuracy on Validation data = 0.94752
+******************************************************
+
+Epoch 254, avg training BATCH loss = 0.01068
+Avg CE loss on Validation data = 0.16286
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 255, avg training BATCH loss = 0.00183
+Avg CE loss on Validation data = 0.14130
+Avg Accuracy on Validation data = 0.94929
+******************************************************
+
+Epoch 256, avg training BATCH loss = 0.00044
+Avg CE loss on Validation data = 0.14414
+Avg Accuracy on Validation data = 0.94811
+******************************************************
+
+Epoch 257, avg training BATCH loss = 0.23649
+Avg CE loss on Validation data = 0.17933
+Avg Accuracy on Validation data = 0.93927
+******************************************************
+
+Epoch 258, avg training BATCH loss = 0.00242
+Avg CE loss on Validation data = 0.15284
+Avg Accuracy on Validation data = 0.94517
+******************************************************
+
+Epoch 259, avg training BATCH loss = 0.03757
+Avg CE loss on Validation data = 0.15534
+Avg Accuracy on Validation data = 0.94693
+******************************************************
+
+Epoch 260, avg training BATCH loss = 0.00096
+Avg CE loss on Validation data = 0.18539
+Avg Accuracy on Validation data = 0.93868
+******************************************************
+
+Epoch 261, avg training BATCH loss = 0.01126
+Avg CE loss on Validation data = 0.16028
+Avg Accuracy on Validation data = 0.94517
+******************************************************
+
+Epoch 262, avg training BATCH loss = 0.00318
+Avg CE loss on Validation data = 0.17346
+Avg Accuracy on Validation data = 0.94045
+******************************************************
+
+Epoch 263, avg training BATCH loss = 0.00574
+Avg CE loss on Validation data = 0.16297
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 264, avg training BATCH loss = 0.00394
+Avg CE loss on Validation data = 0.17891
+Avg Accuracy on Validation data = 0.93868
+******************************************************
+
+Epoch 265, avg training BATCH loss = 0.00204
+Avg CE loss on Validation data = 0.15672
+Avg Accuracy on Validation data = 0.94458
+******************************************************
+
+Epoch 266, avg training BATCH loss = 0.00758
+Avg CE loss on Validation data = 0.18030
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 267, avg training BATCH loss = 0.00902
+Avg CE loss on Validation data = 0.16854
+Avg Accuracy on Validation data = 0.94340
+******************************************************
+
+Epoch 268, avg training BATCH loss = 0.00829
+Avg CE loss on Validation data = 0.15092
+Avg Accuracy on Validation data = 0.94752
+******************************************************
+
+Epoch 269, avg training BATCH loss = 0.00178
+Avg CE loss on Validation data = 0.16927
+Avg Accuracy on Validation data = 0.94281
+******************************************************
+
+Epoch 270, avg training BATCH loss = 0.00232
+Avg CE loss on Validation data = 0.15668
+Avg Accuracy on Validation data = 0.94634
+******************************************************
+
+Epoch 271, avg training BATCH loss = 0.22811
+Avg CE loss on Validation data = 0.15647
+Avg Accuracy on Validation data = 0.94634
+******************************************************
+
+Epoch 272, avg training BATCH loss = 0.00066
+Avg CE loss on Validation data = 0.16530
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 273, avg training BATCH loss = 0.00846
+Avg CE loss on Validation data = 0.18711
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 274, avg training BATCH loss = 0.00292
+Avg CE loss on Validation data = 0.15906
+Avg Accuracy on Validation data = 0.94752
+******************************************************
+
+Epoch 275, avg training BATCH loss = 0.00109
+Avg CE loss on Validation data = 0.19714
+Avg Accuracy on Validation data = 0.93691
+******************************************************
+
+Epoch 276, avg training BATCH loss = 0.00810
+Avg CE loss on Validation data = 0.15186
+Avg Accuracy on Validation data = 0.94752
+******************************************************
+
+Epoch 277, avg training BATCH loss = 0.00433
+Avg CE loss on Validation data = 0.18930
+Avg Accuracy on Validation data = 0.93927
+******************************************************
+
+Epoch 278, avg training BATCH loss = 0.01090
+Avg CE loss on Validation data = 0.16925
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 279, avg training BATCH loss = 0.00561
+Avg CE loss on Validation data = 0.16587
+Avg Accuracy on Validation data = 0.94458
+******************************************************
+
+Epoch 280, avg training BATCH loss = 0.00124
+Avg CE loss on Validation data = 0.18260
+Avg Accuracy on Validation data = 0.93927
+******************************************************
+
+Epoch 281, avg training BATCH loss = 0.01883
+Avg CE loss on Validation data = 0.17840
+Avg Accuracy on Validation data = 0.94222
+******************************************************
+
+Epoch 282, avg training BATCH loss = 0.00075
+Avg CE loss on Validation data = 0.14535
+Avg Accuracy on Validation data = 0.94870
+******************************************************
+
+Epoch 283, avg training BATCH loss = 0.01128
+Avg CE loss on Validation data = 0.19640
+Avg Accuracy on Validation data = 0.93809
+******************************************************
+
+Epoch 284, avg training BATCH loss = 0.00101
+Avg CE loss on Validation data = 0.16894
+Avg Accuracy on Validation data = 0.94399
+******************************************************
+
+Epoch 285, avg training BATCH loss = 0.00271
+Avg CE loss on Validation data = 0.16557
+Avg Accuracy on Validation data = 0.94517
+******************************************************
+
+Epoch 286, avg training BATCH loss = 0.00346
+Avg CE loss on Validation data = 0.15649
+Avg Accuracy on Validation data = 0.94693
+******************************************************
+
+Epoch 287, avg training BATCH loss = 0.01133
+Avg CE loss on Validation data = 0.16122
+Avg Accuracy on Validation data = 0.94575
+******************************************************
+
+Epoch 288, avg training BATCH loss = 0.00126
+Avg CE loss on Validation data = 0.15213
+Avg Accuracy on Validation data = 0.94752
+******************************************************
+
+Epoch 289, avg training BATCH loss = 0.01760
+Avg CE loss on Validation data = 0.16629
+Avg Accuracy on Validation data = 0.94517
+******************************************************
+
+Epoch 290, avg training BATCH loss = 0.00382
+Avg CE loss on Validation data = 0.18550
+Avg Accuracy on Validation data = 0.93986
+******************************************************
+
+Epoch 291, avg training BATCH loss = 0.00152
+Avg CE loss on Validation data = 0.19579
+Avg Accuracy on Validation data = 0.93750
+******************************************************
+
+Epoch 292, avg training BATCH loss = 0.01257
+Avg CE loss on Validation data = 0.15953
+Avg Accuracy on Validation data = 0.94752
+Validation loss did not improve over last 30 Epochs. We abort training loop...
+Optimization finished at : 2018-02-28 03:11:49.558954
