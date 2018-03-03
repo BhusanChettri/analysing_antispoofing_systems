@@ -6,6 +6,8 @@ import copy
 import numpy as np
 import sklearn
 import sklearn.preprocessing
+import librosa.display as disp
+import matplotlib.pyplot as plt
 
 from . import lime_base
 
@@ -60,8 +62,8 @@ class ImageExplanation(object):
             fs = [x[0] for x in exp
                   if x[1] > 0 and x[1] > min_weight][:num_features]
 
-            '''for x in exp:
-                print("index: %d weight %f" %(x[0], x[1]))'''
+            for x in exp:
+                print("Component index: %d weight %f" %(x[0], x[1]))
             '''fs = [x[0] for x in exp
                   if x[1] < 0][:num_features]'''
             for f in fs:
@@ -209,21 +211,40 @@ class LimeImageExplainer(object):
                 segments[i][40:60] = 22
                 segments[i][60:80] = 23'''
         
-        # Temporal segmentation        
+        # Temporal segmentation: code is hard-coded for 3sec audio to be segmented into 10 super-samples.
         for i in range(0, image.shape[0]):
-            if i <20:
+            if i <30:
                 segments[i]= 0
-            elif i>=20 and i<40:
+            elif i>=30 and i<60:
                 segments[i]= 1
            
-            elif i>=40 and i<60:
+            elif i>=60 and i<90:
                 segments[i] = 2
                 
-            elif i>=60 and i<80:
+            elif i>=90 and i<120:
                 segments[i]= 3
+            
+            elif i>=120 and i<150:
+                segments[i]= 4
+           
+            elif i>=150 and i<180:
+                segments[i] = 5
                 
+            elif i>=180 and i<210:
+                segments[i]= 6
+            
+            elif i>=210 and i<240:
+                segments[i]= 7
+           
+            elif i>=240 and i<270:
+                segments[i] = 8
+                    
             else:
-                segments[i]= 4                
+                segments[i]= 9 
+                
+        '''plt.figure(1)
+        disp.specshow(segments.T)
+        plt.savefig('/Users/Saumitra/Documents/workspace/analysing_antispoofing_systems/temp.png')'''       
         
         fudged_image = image.copy()
         if hide_color is None:
@@ -254,6 +275,7 @@ class LimeImageExplainer(object):
             top = np.argsort(labels[0])[-top_labels:]
             ret_exp.top_labels = list(top)
             ret_exp.top_labels.reverse()
+            
         for label in top:
             (ret_exp.intercept[label],
              ret_exp.local_exp[label],
