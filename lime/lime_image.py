@@ -139,7 +139,7 @@ class LimeImageExplainer(object):
                          hide_color=None,
                          top_labels=5, num_features=100000, num_samples=1000,
                          batch_size=10,
-                         distance_metric='cosine', model_regressor=None):
+                         distance_metric='cosine', model_regressor=None, seg_type = 0):
         """Generates explanations for a prediction.
 
         First, we generate neighborhood data by randomly perturbing features
@@ -162,6 +162,7 @@ class LimeImageExplainer(object):
             model_regressor: sklearn regressor to use in explanation. Defaults
             to Ridge regression in LimeBase. Must have model_regressor.coef_
             and 'sample_weight' as a parameter to model_regressor.fit()
+            seg_type: type of explanation to be generated.
 
         Returns:
             An Explanation object (see explanation.py) with the corresponding
@@ -176,74 +177,92 @@ class LimeImageExplainer(object):
         '''from skimage.segmentation import slic
         segments = slic(image, n_segments= 24, compactness=1)'''
         segments = np.empty((image.shape[0], image.shape[1]))
-        '''for i in range(0, image.shape[0]):
-            if i <19:
-                segments[i][0:20]= 0
-                segments[i][20:40]= 1
-                segments[i][40:60]= 2
-                segments[i][60:80]= 3
-            elif i>=19 and i<38:
-                segments[i][0:20] = 4
-                segments[i][20:40] = 5
-                segments[i][40:60] = 6
-                segments[i][60:80] = 7            
-            elif i>=38 and i<57:
-                segments[i][0:20] = 8
-                segments[i][20:40] = 9
-                segments[i][40:60] = 10
-                segments[i][60:80] = 11
-                
-            elif i>=57 and i<76:
-                segments[i][0:20] = 12
-                segments[i][20:40] = 13
-                segments[i][40:60] = 14
-                segments[i][60:80] = 15
-                
-            elif i>=76 and i<95:
-                segments[i][0:20] = 16
-                segments[i][20:40] = 17
-                segments[i][40:60] = 18
-                segments[i][60:80] = 19
-                
-            else:
-                segments[i][0:20] = 20
-                segments[i][20:40] = 21
-                segments[i][40:60] = 22
-                segments[i][60:80] = 23'''
         
         # Temporal segmentation: code is hard-coded for 3sec audio to be segmented into 10 super-samples.
-        for i in range(0, image.shape[0]):
-            if i <30:
-                segments[i]= 0
-            elif i>=30 and i<60:
-                segments[i]= 1
-           
-            elif i>=60 and i<90:
-                segments[i] = 2
-                
-            elif i>=90 and i<120:
-                segments[i]= 3
+        if seg_type == 0:
+            for i in range(0, image.shape[0]):
+                if i <30:
+                    segments[i]= 0
+                elif i>=30 and i<60:
+                    segments[i]= 1              
+                elif i>=60 and i<90:
+                    segments[i] = 2                    
+                elif i>=90 and i<120:
+                    segments[i]= 3
+                elif i>=120 and i<150:
+                    segments[i]= 4
+                elif i>=150 and i<180:
+                    segments[i] = 5                    
+                elif i>=180 and i<210:
+                    segments[i]= 6
+                elif i>=210 and i<240:
+                    segments[i]= 7
+                elif i>=240 and i<270:
+                    segments[i] = 8                        
+                else:
+                    segments[i]= 9
+        elif seg_type==1: # segmentation along frequency axis, 129 bins per frame are segmented into 8 segments, where 0 - 6 segments have 17 bins and 7th has 10.
+            for i in range(0, image.shape[1]):
+                if i<17:
+                    segments[:, i] = 0 # 17 bins correspond to around 1k Hz
+                elif i>=17 and i<34:
+                    segments[:, i] = 1
+                elif i>=34 and i<51:
+                    segments[:, i] = 2
+                elif i>=51 and i<68:
+                    segments[:, i] = 3
+                elif i>=68 and i<85:
+                    segments[:, i] = 4
+                elif i>=85 and i<102:
+                    segments[:, i] = 5
+                elif i>=102 and i<119:
+                    segments[:, i] = 6
+                else:
+                    segments[:, i] = 7
+        else: # segmentation along time and frequency both axes.
+            # to prevent the generation of too many segments, we segment in time and frequency to create a matrix of 30 segments (5 in time x 6 in frequency).
+            # each time segment is 600 msec long and each frequency segment is around 1333 Hz long
             
-            elif i>=120 and i<150:
-                segments[i]= 4
-           
-            elif i>=150 and i<180:
-                segments[i] = 5
-                
-            elif i>=180 and i<210:
-                segments[i]= 6
-            
-            elif i>=210 and i<240:
-                segments[i]= 7
-           
-            elif i>=240 and i<270:
-                segments[i] = 8
-                    
-            else:
-                segments[i]= 9 
+            for i in range(0, image.shape[0]):
+                if i <60:
+                    segments[i][0:20]= 0
+                    segments[i][20:40]= 1
+                    segments[i][40:60]= 2
+                    segments[i][60:80]= 3
+                    segments[i][80:100]= 4
+                    segments[i][100:129]= 5
+                elif i>=60 and i<120:
+                    segments[i][0:20] = 6
+                    segments[i][20:40] = 7
+                    segments[i][40:60] = 8
+                    segments[i][60:80] = 9
+                    segments[i][80:100]= 10
+                    segments[i][100:129]= 11          
+                elif i>=120 and i<180:
+                    segments[i][0:20] = 12
+                    segments[i][20:40] = 13
+                    segments[i][40:60] = 14
+                    segments[i][60:80] = 15
+                    segments[i][80:100]= 16
+                    segments[i][100:129]= 17
+                elif i>=180 and i<240:
+                    segments[i][0:20] = 18
+                    segments[i][20:40] = 19
+                    segments[i][40:60] = 20
+                    segments[i][60:80] = 21
+                    segments[i][80:100]=22
+                    segments[i][100:129]= 23                    
+                else:
+                    segments[i][0:20] = 24
+                    segments[i][20:40] = 25
+                    segments[i][40:60] = 26
+                    segments[i][60:80] = 27
+                    segments[i][80:100]= 28
+                    segments[i][100:129]= 29
+                            
                 
         '''plt.figure(1)
-        disp.specshow(segments.T)
+        disp.specshow(segments.T, y_axis= 'linear', x_axis='time', sr=16000, hop_length=160)
         plt.savefig('/Users/Saumitra/Documents/workspace/analysing_antispoofing_systems/temp.png')'''       
         
         fudged_image = image.copy()
