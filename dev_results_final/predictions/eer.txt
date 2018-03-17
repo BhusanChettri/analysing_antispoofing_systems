@@ -1,0 +1,3 @@
+On Training set 		0.26	
+On Dev set 		5.33	
+On Evaluation set 		29.40	
